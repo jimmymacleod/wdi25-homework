@@ -21,8 +21,6 @@ const tripPlanner = function(locLine, locStart, destLine, destStop) {
 
   const getStops = function(line, startIndex, stopIndex) {
     let stops = [];
-
-
     if (startIndex > stopIndex) {
       line = line.reverse();
       startIndex = ((startIndex - line.length) * -1) -1;

@@ -45,38 +45,47 @@ for (let i = 0; i < wordLetterInput.length; i++) {
   wordLetter.push('_');
 }
 // check out the secret word for game
-console.log(`The secret word enter : ${wordLetter}`);
+console.log(`The secret word enter : ${wordLetterInput}`);
 
 var attemp = 0;
 // step 3 - write a guessLetter function for guess a secret word game
 const guessLetter = function ( aLetter ) {
   //allow attemp 5 time
-    if(wordLetterInput.indexOf(aLetter) < 0){
-      //increate attemp
-      attemp++;
-      console.log("Bad guess!");
-    } else {
+    // if(wordLetterInput.indexOf(aLetter) < 6){
+    //   //increate attemp
+    //   attemp++;
+    //   console.log("Bad guess!");
+    // } else {
 
-      for (let i = 0; i < wordLetterInput.length; i++) {
+    for (let i = 0; i < wordLetterInput.length; i++) {
         if (wordLetterInput[i] === aLetter) {
           wordLetter[i] = aLetter;
-          console.log('Congratulations you win a game!');
+          console.log('Congratulations you got a letter!');
+          attemp++
+          // console.log(attemp);
         }
-      }
-    }
+        console.log(attemp);
 
-  if(wordLetter.indexOf('_') < 0){
+        // else {
+        //   attemp++
+        //   console.log(attemp);
+        // }
+      }
+    // }
+
+
+  if(!wordLetter.includes('_')){
     console.log('You win!');
-  } else if( attemp >= 5 ){
+  } else if( attemp === 6 ){
     console.log('You lose! No more turns.');
   } else {
-    console.log(wordLetter.join(','));
+    console.log(`Running total: ${wordLetter.join(',')}`);
   }
 };
 
-guessLetter('s');
-guessLetter('m');
-guessLetter('i');
-guessLetter('l');
-guessLetter('l');
-guessLetter('e');
+// guessLetter('s');
+// guessLetter('m');
+// guessLetter('i');
+// guessLetter('l');
+// guessLetter('l');
+// guessLetter('e');

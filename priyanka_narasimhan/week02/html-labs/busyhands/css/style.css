@@ -1,0 +1,57 @@
+nav{
+  background-color: black;
+  display: block;
+  padding: 30px;
+}
+
+nav ul li{
+  display: inline;
+  padding : 20px;
+  color: white;
+}
+
+body{
+  margin: auto;
+  padding 30px;
+  max-width: 1000px;
+}
+
+img{
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.logo{
+  float: left;
+  padding: 50px;
+}
+.socialmedia{
+  float: right;
+  z-index: -1;
+  height: 50%;
+}
+
+.homebox , .footer_sub{
+float: left;
+width: 30%;
+text-align: justify;
+padding: 12px;
+}
+
+
+#blurb{
+  display : block;
+width: 95%;
+}
+
+#blurb>img{
+  float: right;
+}
+
+.footer{
+width: 30%;
+padding: 12px;
+background-color: black;
+}
