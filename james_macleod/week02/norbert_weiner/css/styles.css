@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  background-color: lightgray;
+  margin: auto;
+}
+
+.header {
+  padding: 10px 10px 10px 50px;
+  background-color: black;
+}
+
+h1, h3 {
+  margin: 0px;
+  color: white;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.block {
+  border: 1px solid black;
+  height: 250px;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fireworks1 {
+  height:200px;
+  width: 40%;
+  border: 1px solid black;
+  background-image: url("../images/giphy.gif");
+  background-size: contain;
+}
+
+.fireworks {
+  height:200px;
+  width: 40%;
+  border: 1px solid black;
+  background-image: url("../images/giphy2.gif");
+  background-size: cover;
+  float: right;
+}
+
+.block img {
+  height: 80%;
+}
+
+.block .fireworks img {
+  float: right;
+}
+
+.content {
+  border: 1px solid black;
+  margin: 15px;
+  height: 90%;
+  width: 50%;
+  background: black;
+  display: inline-block;
+  float: right;
+}
+
+h4 {
+  color: white;
+  font-weight: 200;
+}

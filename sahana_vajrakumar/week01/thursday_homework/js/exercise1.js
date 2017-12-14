@@ -9,9 +9,6 @@
 //
 // You should write a basic story through a series of JavaScript commands that shows that the methods do indeed work as expected: add some accounts, show the total balance, make some deposits and withdrawals, show the new total balance.
 
-
-
-
 let bank = {
 
    accounts: [
@@ -101,6 +98,7 @@ let bank = {
 
 bank.addNewAccount("XYZ" , 100);
 bank.withdraw("david" , 10);
+
 bank.deposit("john" , 10);
 bank.transfer("john", "mx" , 20);
 bank.totalAmount();

@@ -26,6 +26,7 @@ line6 : ['Grand Central',
           'Union Square',
           'Astor Place',
         ]
+
 },
 
  reverseStations : function(lineToReverse){
@@ -40,10 +41,11 @@ line6 : ['Grand Central',
 
 
    singleLineTrip : function(startLine, startPoint, endLine, endPoint){
-        let currentLine = subway[startLine];
+        let currentLine=[];
+        currentline = subway[startLine];
         let currentLineName = startLine;
         let revLine;
-        //console.log(`CURRENTLINE:${startLine}`);
+        console.log(`CURRENTLINE:${startLine}`);
 
         //Calculating the number of stops
         let startPointIndexVal = currentLine.indexOf(startPoint);
@@ -89,7 +91,7 @@ line6 : ['Grand Central',
         let  startLineInSecondJourney    = endLine;
         let  startPointInFirstJourney    = 'Union Square';
         console.log(`Change at UNION SQUARE\nYour journey continues through the following stops`);
-        singleLineTrip(startLineInSecondJourney, startPointInFirstJourney, endLine, endPoint);
+        this.singleLineTrip(startLineInSecondJourney, startPointInFirstJourney, endLine, endPoint);
     },
 
 
@@ -105,9 +107,6 @@ line6 : ['Grand Central',
 };
 
 
-
-
-
 // console.log(`Single trips\n\n\n\n\n`);
 //
 // singleLineTrip('lineN', '34th', 'lineN', '8th');
@@ -121,34 +120,8 @@ line6 : ['Grand Central',
 // multiLineTrip('lineN', '34th', 'line6', 'Grand Central');
 
 
-
-<<<<<<< HEAD
-// singleLineTrip('lineN', '34th', 'lineN', '8th');
-// singleLineTrip('lineN', '8th', 'lineN', '34th');
-
-console.log(`\n\n\n\n\n`);
-
-const multiLineTrip = function(startLine, startPoint, endLine, endPoint){
-///FIRST TRIP
-    //Change end line to Union Square
-    var endPointInFirstJourney = 'Union Square';
-    var endLineInFirstJourney  = startLine;
-    singleLineTrip(startLine, startPoint, endLineInFirstJourney, endPointInFirstJourney);
-////SECOND TRIP
-    var  startLineInSecondJourney    = endLine;
-    var  startPointInFirstJourney    = 'Union Square';
-    console.log(`Changing lines`);
-    singleLineTrip(startLineInSecondJourney, startPointInFirstJourney, endLine, endPoint);
-};
-=======
->>>>>>> 316e57137ded01d59707e54bf3d2282491087c49
-
-
-
-<<<<<<< HEAD
-// planMyTrip('lineN', '34th', 'line6', 'Astor Place');
-// planMyTrip('lineN', '34th', 'lineN', 'Times Square');
-=======
 subway.planMyTrip('lineN', '34th', 'line6', 'Astor Place');
+subway.planMyTrip('lineN', '34th', 'line6', 'Union Place');
+
 //planMyTrip('lineN', '34th', 'lineN', 'Times Square');
->>>>>>> 316e57137ded01d59707e54bf3d2282491087c49
+
