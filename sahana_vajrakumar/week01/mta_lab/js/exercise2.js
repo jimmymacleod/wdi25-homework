@@ -87,9 +87,9 @@ let subway = {
   }
 }
 
-subway.route("sixLine" , "Grand Central" , "lLine" , "l8");
+subway.route("nLine" , "n34" , "nLine" , "n23 ");
 
-//FOR user input prompt
+// FOR user input prompt
 
 // var startl = prompt("Please enter the start line", "<Enter here>");
 // var startloc;

@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* Styles Here */
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
+}
+
+header {
+  background: #4682B4;
+  padding: 10px;
+}
+
+
+nav {
+  float: right;
+  margin-top: 11px;
+  text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  transition: 333ms all ease-in-out;
+}
+
+nav a:last-of-type {
+  margin: 0;
+}
+
+nav a:hover {
+  color: red;
+}
+
+
+
+/* Hero */
+.hero {
+  background: pink;
+  background-image: url('http://www.moaa.org/uploadedImages/Content/Publications/Features_and_Columns/Retired_Still_Working_Features/Amazing_Grace_Hopper_1210x796.jpg?n=5207');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 40px;
+}
+
+.hero h1 {
+  text-align: center;
+  margin: 0;
+  padding: 200px 0 0 0;
+  color: white;
+  color: rgba(255,255,255,1);
+  text-shadow: 0 0 10px #444;
+  font-family: 'Black Ops One', cursive;
+}
+
+h3{
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+p{
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
+}
+/* Columns & Row */
+.row {
+  margin: 0 auto 2em;
+  width: 90%;
+  max-width: 600px;
+}
+
+.column {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+}
+
+.column:last-of-type {
+  margin-right: 0;
+}
+
+
+
+/* Footer */
+footer {
+  background: #ccc;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 500px) {
+  header {
+    text-align: center;
+  }
+  header .row {
+    margin-bottom: 0;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+  }
+  .column {
+    width: 100%;
+    margin-right: 0;
+  }
+}

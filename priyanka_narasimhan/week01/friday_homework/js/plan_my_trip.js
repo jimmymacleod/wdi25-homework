@@ -124,4 +124,3 @@ subway.planMyTrip('lineN', '34th', 'line6', 'Astor Place');
 subway.planMyTrip('lineN', '34th', 'line6', 'Union Place');
 
 //planMyTrip('lineN', '34th', 'lineN', 'Times Square');
-
