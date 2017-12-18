@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Play|Rubik+Mono+One" rel="stylesheet">
+  <title>Bank ATM</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h2>The Bank</h2>
+
+    </div>
+    <div class="bank">
+
+      <div class="welcome">
+        <h3>Welcome to the bank,</h3>
+        <h3 id="name"></h3>
+      </div>
+
+      <div class="balances">
+        <div class="box">
+          <h3>Savings balance:</h3>
+          <h2 id="savingsBalance">$100</h2>
+        </div>
+        <div class="box">
+          <div class="credit-box">
+            <p id="credit-limit"></p>
+            <h3>Credit balance:</h3>
+            <h2 id="creditBalance">$100</h2>
+          </div>
+
+          <div class="credit-buttons">
+            <button id="plus"><h3>+</h3></button>
+            <button id="minus"><h3>-</h3></button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="actions">
+
+        <div class="buttons">
+          <button id="deposit"><h3>Deposit</h3></button>
+          <button id="withdraw"><h3>Withdraw</h3></button>
+        </div>
+
+        <input id="amount" type="text" placeholder="How much?">
+
+        <button id="confirm"><h3>Confirm</h3></button>
+
+      </div>
+
+      <div class="message"><h2>Good day to you.</h2></div>
+
+      <div class="animations">
+        <div class="animate animate-down" id="ani_1"></div>
+        <div class="animate animate-down" id="ani_2"></div>
+        <div class="animate animate-down" id="ani_3"></div>
+        <div class="animate animate-down" id="ani_4"></div>
+        <div class="animate animate-down" id="ani_5"></div>
+        <div class="animate animate-down" id="ani_6"></div>
+      </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
