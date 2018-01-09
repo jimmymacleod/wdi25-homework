@@ -54,7 +54,6 @@ const moveAcross = function() {
   console.log("working");
 
   fatCat.style.left = parseInt(fatCat.style.left) + move + "px";
-  fatCat.style.top = parseInt(fatCat.style.left) + move + "px";
 
   if (parseInt(fatCat.style.left) <= 0) {
     move = +10;
