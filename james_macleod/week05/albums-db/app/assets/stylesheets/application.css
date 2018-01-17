@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+h3 {
+  font-family: "PT-sans", sans-serif;
+  background: lightgray;
+  display: inline-block;
+}
+
+.album-border {
+  padding: 30px;
+  height: 100vh;
+}
+
+.record {
+  background-color: none;
+  background-image: url("/images/records.jpg");
+}
+
+.album-info {
+  width: 40%;
+  background-color: lightgray;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  height: 200px;
+}
+
+.container {
+  width: 960px;
+  min-height: 100vh;
+  background-color: mistyrose;
+  margin: auto;
+  background-image: url(records.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+}
+
+.form {
+  margin-top: 20px;
+  width: 200px;
+}
+
+input {
+  width: 150px;
+  right: 150px;
+  position: absolute;
+}
+
+.button-style {
+  margin-top: 20px;
+}
+
+.album-collection {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.album-controls {
+  margin-top: 30px;
+}
+
+.album-image {
+  width: 200px;
+  height: auto;
+}
+
+.form1 {
+  margin-top: 20px;
+  width: 200px;
+}
+
+#home {
+  float: right;
+  margin-right: 100px;
+  background: yellow;
+}

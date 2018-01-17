@@ -1,0 +1,22 @@
+<h1><%= @album.name %></h1>
+<div class="album-border" style="background-image: url(<%= @album.image%>);background-size:cover;background-repeat: no-repeat;">
+
+<img class="album-image" src="<%= @album.image %>" alt="">
+
+<div class="album-info record">
+  <!-- <div class="flex-container"> -->
+    <div>
+      <h3>
+        Year: <%= @album.year %><br>
+        Track: <%= @album.tracks %><br>
+        Spotify: <a href="<%= @album.link %>">Link</a><br>
+      </h3>
+    </div>
+    <div class="album-controls">
+      <a href="/albums/<%= @album.id %>/delete">Delete</a><br>
+      <a href="/albums/<%= @album.id %>/edit">Edit</a><br>
+      <a href="/albums">Home >>></a>
+    </div>
+  <!-- </div> -->
+</div>
+</div>

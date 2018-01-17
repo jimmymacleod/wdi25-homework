@@ -1,0 +1,26 @@
+<h1>Edit Album: <%= @album.name %></h1>
+
+<div class="album-border record">
+
+<!-- ??????
+
+style="background-image: url(<%= @album.image %>)"
+-->
+
+<img class="album-image" src="<%= @album.image %>" alt="">
+<div class="album-info">
+<div class="form">
+  <form action="/albums/<%= @album.id %>" method="post">
+    <p>Name: <input type="text" name="name" value="<%= @album.name %>"></p>
+    <p>Img: <input type="text" name="image" value="<%= @album.image %>"></p>
+    <p>Year: <input type="text" name="year" value="<%= @album.year %>"></p>
+    <p>Tracks: <input type="text" name="tracks" value="<%= @album.tracks %>"></p>
+    <p>Link: <input type="text" name="link" value="<%= @album.link %>"> <br></p>
+
+    <button class="button-style" >Sumbit Changes</button>
+  </form>
+
+  <a href="/albums">Home >>></a>
+</div>
+</div>
+</div>
