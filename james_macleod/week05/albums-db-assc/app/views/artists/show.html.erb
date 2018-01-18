@@ -1,0 +1,30 @@
+<h1><%= @artist.name %></h1>
+
+<br>
+
+<a id="home" href="/albums/new">New Album >>></a>
+<a id="home" href="/artists">Artists >>></a>
+<a id="home" href="/artists/new">New Artist >>></a>
+
+<br>
+<br>
+
+<div class="artistPage">
+<img class="artistImage" src="<%= @artist.image %>" alt="">
+
+  <div class="artistInfo">
+      <div>
+        <h3>Nationality: <%= @artist.nationality %></h3><br>
+        <h3>Genre: <%= @artist.genre %></h3><br>
+        <h3>Twitter: <a href="https://twitter.com/<%= @artist.twitter %>">@<%= @artist.twitter %></a></h3><br>
+      
+      </div>
+
+      <div>
+        <a href="/artists/<%= @artist.id %>/delete">Delete</a><br>
+        <a href="/artists/<%= @artist.id %>/edit">Edit</a><br>
+        <a href="/artists">Home >>></a>
+      </div>
+
+  </div>
+</div>

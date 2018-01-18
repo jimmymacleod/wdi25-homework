@@ -1,0 +1,36 @@
+<h1 >Album Collection</h1>
+
+
+<a id="home" href="/albums/new">New Album >>></a>
+<a id="home" href="/artists">Artists >>></a>
+<a id="home" href="/artists/new">New Artist >>></a>
+
+
+  <div class="album-collection">
+
+  <% @albums.each do |a| %>
+  <div class="album-container">
+    <a href="/albums/<%= a.id %>"><h3><%= a.name %></h3></a><br>
+    <img class="album-image" src="<%= a.image %>" alt=""> <br>
+    <h3><%= a.year %></h3><br>
+    <br>
+    </div>
+  <% end %>
+
+</div>
+
+
+
+<script>
+
+   // $(document).ready(function(){
+   //  $('.album-collection').slick({
+   //      dots: true,
+   //      infinite: true,
+   //      slidesToShow: 1,
+   //      centerMode: true,
+   //      variableWidth: true
+   //     });
+   //  });
+
+</script>

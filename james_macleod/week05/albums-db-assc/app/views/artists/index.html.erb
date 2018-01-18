@@ -1,0 +1,33 @@
+<h1>Artists of Note</h1>
+
+
+<a id="home" href="/albums/new">New Album >>></a>
+<a id="home" href="/albums">Albums >>></a>
+<a id="home" href="/artists/new">New Artist >>></a>
+
+<div class="artistTiles">
+
+  <% @artists.each do |a| %>
+  <div class="artistDiv" style="background-image: url(<%= a.image %>)">
+    <a href="/artists/<%= a.id %>"><h3><%= a.name %></h3></a><br>
+    <h3><%= a.genre %></h3><br>
+    <br>
+    <br>
+    </div>
+  <% end %>
+
+</div>
+
+<script>
+
+   // $(document).ready(function(){
+   //  $('.album-collection').slick({
+   //      dots: true,
+   //      infinite: true,
+   //      slidesToShow: 1,
+   //      centerMode: true,
+   //      variableWidth: true
+   //     });
+   //  });
+
+</script>

@@ -1,0 +1,30 @@
+
+<div class="form">
+<%= form_for @album do |a| %>
+  <fieldset>
+    <%= a.label :name  %>
+    <%= a.text_field :name  %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :image  %>
+    <%= a.text_field :image %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :year  %>
+    <%= a.text_field :year  %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :tracks  %>
+    <%= a.text_field :tracks  %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :link, 'Link URL'  %>
+    <%= a.text_field :link  %>
+  </fieldset>
+  <fieldset>
+   <%= a.label :artist_id, 'Artist' %>
+   <%= a.select :artist_id, Artist.all.pluck(:name, :id), include_blank: true  %>
+ </fieldset>
+  <%= a.submit 'Save' %>
+<% end %>
+</div>

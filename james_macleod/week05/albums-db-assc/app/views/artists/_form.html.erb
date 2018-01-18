@@ -1,0 +1,25 @@
+<div class="form">
+<%= form_for @artist do |a| %>
+  <fieldset>
+    <%= a.label :name  %>
+    <%= a.text_field :name  %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :nationality  %>
+    <%= a.text_field :nationality %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :genre  %>
+    <%= a.text_field :genre  %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :twitter  %>
+    <%= a.text_field :twitter  %>
+  </fieldset>
+  <fieldset>
+    <%= a.label :image %>
+    <%= a.text_field :image  %>
+  </fieldset>
+  <%= a.submit 'Save' %>
+<% end %>
+</div>
