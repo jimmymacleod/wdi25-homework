@@ -1,0 +1,87 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//variables
+$brand-color: rgb(152, 217, 218);
+$padding: 1em;
+
+//mixin
+@mixin greyItalic {
+  color: grey;
+  font-style: italic;
+}
+
+.post {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: $padding;
+  border-bottom: 1px solid black;
+  border-radius: 0.5em;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+
+  h2{
+    // color: grey;
+    // font-style: italic;
+    @include greyItalic
+  }
+
+  .content{
+    border: 1px solid $brand-color;
+    padding: $padding;
+    border-radius: 0.5em;
+
+    p {
+      text-align: right;
+      color: $brand-color;
+    }
+  }
+
+
+}
+
+// .post p{
+//   text-align: right;
+// }
+
+#other p{
+  @include greyItalic
+  // color: grey;
+  // font-style: italic;
+}
+
+
+.notification{
+  border: 5px solid black;
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: mistyRose;
+  color: green;
+  padding: $padding;
+  font-size: 150%
+}
+
+.error{
+  @extend .notification;
+  // border: 5px solid black;
+  // border-radius: 0.5em;
+  // text-align: center;
+  // background-color: mistyRose;
+  color: red;
+  // padding: $padding;
+  // font-size: 150%
+}
+
+.success{
+  @extend .notification;
+
+  // border: 5px solid black;
+  // border-radius: 0.5em;
+  // text-align: center;
+  // background-color: mistyRose;
+  color: blue;
+  // padding: $padding;
+  // font-size: 150%
+}

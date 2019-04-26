@@ -1,0 +1,25 @@
+<%= form_for @runner do |f| %>
+  <fieldset>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :age %>
+    <%= f.text_field :age %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :nationality %>
+    <%= f.text_field :nationality %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :gender %>
+    <%= f.text_field :gender %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :image, 'Image URL' %>
+    <%= f.url_field :image %>
+  </fieldset>
+
+  <br>
+  <%= f.submit 'Save' %>
+<% end %>

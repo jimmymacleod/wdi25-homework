@@ -1,0 +1,23 @@
+
+<img src="http://static1.squarespace.com/static/595543f6b11be1695b0fdb29/t/59555414cd0f68572370bb64/1498764324553/DFP-RockPaperScissors-Black.png?format=1000w">
+<h3>You picked <%= @select %></h3>
+
+<h3>Server picked <%= @result %></h3>
+
+<% if @select == "rock" && @result == "paper" %>
+ <p>You lost</p>
+ <% elsif @select == "rock" && @result == "scissors" %>
+ <p>You Won</p>
+
+ <% elsif @select == "paper" && @result == "rock" %>
+ <p>You Won</p>
+ <% elsif @select == "paper" && @result == "scissors" %>
+ <p>You lost</p>
+ <% elsif @select == "scissors" && @result == "paper" %>
+ <p>You won</p>
+ <% elsif @select == "scissors" && @result == "rock" %>
+ <p>You lost</p>
+ <% elsif @select == @result %>
+ <p>It's a draw</p>
+
+<% end %>

@@ -1,0 +1,23 @@
+<hr>
+<a href="/students/new">Add a New Student</a>
+<hr>
+
+<h2>Student Information List</h2>
+
+
+<% @result.each do |student| %>
+
+  <strong>Name:</strong>
+  <a href="/students/<%= student.id %>">
+    <%= student.first_name %> <%= student.last_name %>
+  </a>
+  <br>
+
+  <a href="/students/<%= student.id %>">
+    <img src="<%= student.image_url %>">
+  </a>
+
+
+  <hr>
+
+<% end %>

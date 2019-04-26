@@ -45,6 +45,7 @@ const scrabble = {
 
     // need to isolate each letter of the word
     for (let i = 0; i < word.length; i++) {
+      debugger;
       let letter = word[i];
       console.log(letter);
 

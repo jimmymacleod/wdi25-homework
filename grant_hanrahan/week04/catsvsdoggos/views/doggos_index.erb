@@ -1,0 +1,23 @@
+
+<h2>Roll Call of Amazingness</h2>
+
+
+<a href="/home">Go Home</a><br>
+<hr>
+
+<a href="/doggos/new">Add new Doggo</a><br><br>
+<% @result.each do |doggo| %>
+
+  <strong>Name: </strong>
+    <a href="/doggos/<%= doggo.id %>">
+      <%= doggo.name %>
+   </a>
+  <br>
+
+
+  <a href="/doggos/<%= doggo.id %>"><br>
+    <img src="<%= doggo.image_url %>">
+  </a>
+  <hr>
+
+<% end %>

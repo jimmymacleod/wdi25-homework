@@ -1,0 +1,17 @@
+
+  <h2>Introducing
+    <%= @student.first_name %>
+    <%= @student.last_name %>
+  </h2>
+
+
+<strong>Place:</strong> <%= @student.place %>
+<br>
+<img src="<%= @student.image_url %>">
+<br>
+<strong>Age:</strong> <%= @student.age %>
+<br>
+
+<a href="/students/<%= @student.id %>/edit">Edit this guy</a>
+|
+<a href="/students/<%= @student.id %>/delete">Delete</a>

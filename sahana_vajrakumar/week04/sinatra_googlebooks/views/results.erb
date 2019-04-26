@@ -1,0 +1,15 @@
+<h2>Search Results for <%= params[:query] %></h2>
+
+<% @results.each do |books| %>
+
+<strong>Title:</strong> <%= books["volumeInfo"]["title"] %>
+<br>
+
+
+<hr/>
+<a href="/details/<%= books["id"] %>">
+<img src="http://books.google.com/books/content?id=<%= books["id"] %>&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api">
+</a>
+
+
+<% end %>

@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+li {
+  padding: 30px;
+}
+nav {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: fixed;
+}
+
+img{
+  display: inline;
+}
+
+.socialmedia{
+  position:relative;
+  left: 400px;
+}
+
+
+#blurb{
+  padding: 10px;
+  width: 90%;
+}
+#blurb>img{
+  position: relative;
+  left: 90px;
+}
+div {
+  display: inline-block;
+}
+
+div p{
+  text-align: justify;
+  width: 32%;
+  border: 1px solid red;
+}
+
+.homebox{
+  /*width: 32%;*/
+  width: 20%;
+
+  border: 1px solid green;
+}

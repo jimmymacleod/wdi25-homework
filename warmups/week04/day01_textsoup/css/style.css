@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+body{
+  background-color: rgb(23, 57, 70);
+}
+
+#words{
+  display: none;
+}
+
+.word{
+  position: absolute;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 50px;
+  display: none;
+}

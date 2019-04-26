@@ -1,0 +1,16 @@
+<h2>Beautiful beaches</h2>
+
+<a href="/beaches/new">Add a new beach</a>
+<br>
+
+<% @result.each do |beach| %>
+<a href = "/beaches/<%= beach["id"] %>">
+   <%= beach["beach_name"] %>
+ </a>
+  <br>
+
+  <a href = "/beaches/<%= beach["id"] %>" >
+  <img src="<%= beach["image_url"] %>" >
+</a>
+  <br>
+<% end %>

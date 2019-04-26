@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Ruda');
+
+body {
+  margin: 0 auto;
+  width: 60%;
+  /*background-image: url("../images/bg.png");*/
+  background-repeat: repeat;
+  font-family: 'Bungee Inline', cursive;
+}
+
+h1, h2, h3, nav, a, button, input {
+  font-family: 'Bungee Inline', cursive;
+  color: ;
+}
+
+p {
+  font-family: 'Ruda', sans-serif;
+}
+
+h1 {g
+  font-size: 30pt;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+input {
+  height: 45px;
+  width: 250px;
+  border: none;
+  font-size: 12pt;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.subtitle {
+  display: block;
+  font-size: 35px;
+}
+.animation {
+  webkit-animation: rotateWord 2s ease-out, fadeInWord 2s;
+  -moz-animation: rotateWord 2s ease-out, fadeInWord 2s;
+  -o-animation: rotateWord 2s ease-out, fadeInWord 2s;
+  -ms-animation: rotateWord 2s ease-out, fadeInWord 2s;
+  animation: rotateWord 2s ease-out, fadeInWord 2s;
+}
+
+@-webkit-keyframes rotateWord {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.2);
+  }
+  100% {
+    -webkit-transform: rotate(2160deg) scale(1);
+  }
+}
+
+@-moz-keyframes rotateWord {
+  0% {
+    -moz-transform: rotate(0deg) scale(0.2);
+  }
+  100% {
+    -moz-transform: rotate(2160deg) scale(1);
+  }
+}
+
+@-o-keyframes rotateWord {
+  0% {
+    -o-transform: rotate(0deg) scale(0.2);
+  }
+  100% {
+    -o-transform: rotate(2160deg) scale(1);
+  }
+}
+
+@-ms-keyframes rotateWord {
+  0% {
+    -ms-transform: rotate(0deg) scale(0.2);
+  }
+  100% {
+    -ms-transform: rotate(2160deg) scale(1);
+  }
+}
+
+@keyframes rotateWord {
+  0% {
+    transform: rotate(0deg) scale(0.2);
+  }
+  100% {
+    transform: rotate(2160deg) scale(1);
+  }
+}
+
+@-webkit-keyframes fadeInWord {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInWord {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInWord {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeInWord {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInWord {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero {
+  padding: 30px;
+}
+
+.menu a {
+  font-size: 15pt;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+.menu li {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.highlight {
+  color: red;
+}
+
+.content {
+  margin-top: 50px !important;
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe {
+  padding-top: 25px;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 15px;
+}
+
+.quotes p {
+  padding: 10px;
+  font-style: italic;
+}
+
+@media only screen
+and (max-width : 768px) {
+ img {
+   width: 100%;
+   height: auto;
+ }
+ .menu li {
+   display: block;
+   padding-top: 10px;
+ }
+}

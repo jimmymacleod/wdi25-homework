@@ -1,0 +1,17 @@
+
+<h2>Edit
+  <%= @award.name %>
+</h2>
+<hr>
+
+<!-- POST to e.g. /awards/5 to submit form -->
+<form action="/awards/<%= @award.id %>" method="post">
+
+Name: <input type="text" name="name" value="<%= @award.name %>"><br>
+description: <input type="text" name="description" value="<%= @award.description %>"><br>
+Image URL: <input type="text" name="image_url" value="<%= @award.image_url %>"><br>
+Student ID: <input type="text" name="student_id" value="<%= @award.student_id %>"><br>
+
+  <button>Update Changes</button>
+
+</form>

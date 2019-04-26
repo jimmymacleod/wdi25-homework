@@ -1,0 +1,88 @@
+
+
+h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 0 0 0 40px;
+}
+
+.containerwindows{
+  margin: 100px;
+  padding: 50px;
+}
+.windows{
+  display:inline-block;
+  width: 20%;
+  height: 170px;
+  border-right: 4px solid black;
+  font-size: 20px;
+  padding: 50px;
+  /*background-color: lightpink;*/
+}
+body {
+  font-family: 'Josefin Slab', serif;
+}
+
+li{
+      color: white;
+}
+nav ul{
+  width: 100%;
+  margin: 0;
+  background-color: rgba(0,0,0,0.7);
+  position: fixed;
+
+}
+p{
+  font-size: 20px;
+}
+.containerbody{
+  margin: 0 auto;
+  padding: 50px;
+}
+
+}
+nav ul li {
+
+
+  display: inline-block;
+  padding: 20px;
+  text-decoration: underline;
+  line-height: 50px;
+  font-size: 24px;
+}
+
+li :hover{
+  height: 20px;
+  font-size: 30px;
+}
+
+.sw_pic{
+  width: 75%;
+}
+.logo{
+  border-radius: 20%;
+  height: 100px;
+}
+
+.logo{
+  display: block;
+}
+
+div>span{
+  text-decoration: underline;
+  border-radius: 50%;
+  border: 10px solid red;
+}
+
+
+.about{
+  font-family: 'Josefin Slab', serif;
+
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(0,0,0,.5);
+  border: 2px solid green;
+  border-radius: 10%;
+}

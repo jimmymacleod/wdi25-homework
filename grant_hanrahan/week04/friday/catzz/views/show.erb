@@ -1,0 +1,20 @@
+<marquee direction = "right" scrollamount="1">
+  <h2>Introducing...
+    <%= @cat["first_name"]%>
+    <%= @cat["last_name"]%>
+  </h2>
+</marquee>
+
+<a href="/home">Go Home</a><br>
+<a href="/cats">View All</a><br><br>
+
+
+<strong>Grumpy/Evilness: </strong> <%= @cat["grumpiness"] %>
+<br>
+<br>
+
+  <img src="<%= @cat["image_url"] %>">
+  <br>
+  <a href="/cats/<%= @cat["id"]%>/edit">Edit this evil</a>
+  <br> <br>
+  <a href="/cats/<%= @cat["id"]%>/delete">Delete this evil</a>

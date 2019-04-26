@@ -1,0 +1,15 @@
+<h1>Mountains of the World</h1>
+<hr>
+
+<ul>
+  <% @mountains.each do |m| %>
+  <li>
+    <%#= link_to m.name, m %>
+    <%#= link_to p.name, planet_path(p) %>
+    <%#= link_to p.name, planet_path(p.id) %>
+    <a href="/mountains/<%= m.id %>"><%= m.name %></a>
+  </li>
+  <% end %>
+</ul>
+<hr>
+<%= link_to 'Add New', "/mountains/new" %>

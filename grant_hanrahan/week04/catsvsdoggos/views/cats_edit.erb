@@ -1,0 +1,42 @@
+
+
+<h2>Edit
+<%= @cat.name %>
+</h2>
+<hr>
+
+<!-- Post to e.g. /animals/5 to submit form -->
+
+<form action="/cats/<%= @cat.id %>" method="post">
+
+Name: <input type="text" name="name" value="<%= @cat.name %>"><br>
+<br>
+Evilness:
+<select name="evilness" value="<%= @cat.evilness %>">
+  <option value="Low">Low</option>
+  <option value="Medium">Medium</option>
+  <option value="High">High</option>
+  <option value="EXTREME">EXTREME</option>
+</select>
+<br>
+
+<br>
+Description: <input type="text" name="description" value="<%= @cat.description %>"><br>
+<br>
+Victims:
+<select name="victims" value="<%= @cat.victims %>">
+  <option value=0..50>0 - 50</option>
+  <option value="50..100">50 - 100</option>
+  <option value="100..1000">100+</option>
+  <option value="1000..1000000">1000+</option>
+</select>
+<br>
+<br>
+Image URL: <input type="text" name="image_url" value="<%= @cat.image_url %>"><br>
+<br>
+
+<br>
+
+<button>Update Cat</button>
+
+</form>

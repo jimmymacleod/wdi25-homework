@@ -1,3 +1,11 @@
 .video{
-  padding 2000px 0 0 10px;
+  position: relative;
+  width: 50%;
+}
+
+footer {
+  background: #ccc;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 11px;
 }

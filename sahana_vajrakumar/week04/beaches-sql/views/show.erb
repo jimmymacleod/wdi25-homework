@@ -1,0 +1,17 @@
+<h2>Welcome to <%= @beach["beach_name"] %></h2>
+
+<strong>Location</strong> <%= @beach["location"] %>
+<br>
+<strong>Description</strong> <%= @beach["description"] %>
+<br>
+<strong>Reviews</strong> <%= @beach["reviews"] %>
+<br>
+<strong>Likes</strong> <%= @beach["likes"] %>
+<br>
+
+
+<img src="<%= @beach["image_url"] %>" ><br>
+
+<a href="/beaches/<%= @beach["id"]%>/edit">Edit</a>
+|
+<a href="/beaches/<%= @beach["id"]%>/delete">Delete</a>

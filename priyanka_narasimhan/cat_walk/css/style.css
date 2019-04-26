@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+  font-family: 'Underdog', cursive;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  top: 0px;
+  left: 100px;
+  background : #808080 ;
+}
+
+#the_maze {
+  position: relative;
+  max-height: 800px;
+  max-width: 800px;
+  left: 250px;
+  /*border: 2px solid green;*/
+}

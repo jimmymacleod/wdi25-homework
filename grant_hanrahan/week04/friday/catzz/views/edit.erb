@@ -1,0 +1,26 @@
+
+
+<h2>Edit
+<%= @cat["first_name"] %>
+<%= @cat["last_name"] %>
+</h2>
+<hr>
+
+<!-- Post to e.g. /animals/5 to submit form -->
+
+<form action="/cats/<%= @cat["id"] %>" method="post">
+
+First Name: <input type="text" name="first_name" value="<%= @cat["first_name"] %>"><br>
+<br>
+Last Name: <input type="text" name="last_name" value="<%= @cat["last_name"] %>"><br>
+<br>
+Grumpiness: <input type="text" name="grumpiness" value="<%= @cat["grumpiness"] %>"><br>
+<br>
+Image URL: <input type="text" name="image_url" value="<%= @cat["image_url"] %>"><br>
+<br>
+
+<br>
+
+<button>Update Cat</button>
+
+</form>

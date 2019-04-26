@@ -1,0 +1,17 @@
+<h1>Event: <%= @run.name %></h2>
+<%= link_to 'Edit', "/runs/#{@run.id}/edit"%>|
+<%= link_to 'Delete', "/runs/#{@run.id}/delete"%>|
+<%= link_to 'Events', "/runs"%>|
+<%= link_to 'Runners', "/runners"%>
+
+  <hr>
+<h3>Details</h3>
+  <h4>Winner: <%= link_to @run.runner.name, @run.runner %></h4>
+
+<p>Distance: <%= @run.distance %>km</p>
+<p>Date: <%= @run.date %></p>
+<p>Country: <%= @run.country %></p>
+<p>City: <%= @run.city %></p>
+
+<%= image_tag @run.image %>
+<hr>

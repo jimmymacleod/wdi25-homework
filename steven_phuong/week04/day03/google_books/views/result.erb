@@ -1,0 +1,16 @@
+<h2>Your search result for <%= params[:book] %></h2>
+
+<p>
+  <strong>Your list of search results</strong>
+</p>
+
+<% @results.each do |book| %>
+  <a href="/details/<%= book["id"] %>"">
+    <img src="<%= book["volumeInfo"]["imageLinks"]["thumbnail"] %>"/>
+  </a>
+  <p>
+    <strong>Title:</strong>
+    <%= book["volumeInfo"]["title"] %>
+  </p>
+  <hr/>
+<% end  %>

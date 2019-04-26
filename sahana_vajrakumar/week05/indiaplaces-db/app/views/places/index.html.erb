@@ -1,0 +1,13 @@
+
+<h2>Must Visit Places In India</h2>
+<!-- <img src="https://i0.wp.com/www.travelmeguide.com/wp-content/uploads/2015/04/Must-Visit-Historic-Places-In-India.jpg"> -->
+<ul>
+  <% @places.each do |p| %>
+
+
+      <%= link_to p.name, p  %> <br>
+      <br>
+
+
+  <% end %>
+</ul>

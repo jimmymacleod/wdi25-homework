@@ -1,0 +1,19 @@
+<marquee>
+  <h2>Introducing...
+    <%= @cloud["shape"]%>
+  </h2>
+</marquee>
+
+<strong>Shape: </strong> <%= @cloud["shape"] %>
+<br>
+<strong>Color: </strong> <%= @cloud["color"] %>
+<br>
+<strong>Size: </strong> <%= @cloud["size"] %>
+
+<br>
+
+  <img src="<%= @cloud["image_url"] %>">
+  <br>
+  <a href="/clouds/<%= @cloud["id"]%>/edit">Edit this guy</a>
+  <br>
+  <a href="/clouds/<%= @cloud["id"]%>/delete">Delete this guy</a>

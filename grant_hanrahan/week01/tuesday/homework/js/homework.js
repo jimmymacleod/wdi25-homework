@@ -5,7 +5,9 @@
 const squareNumber = function(num){
   const squaredNum = num * num;
   console.log(`The result of squaring the number ${num} is ${squaredNum}`);
+  return squaredNum;
 }
+
 squareNumber(5);
 squareNumber(20);
 
@@ -13,6 +15,7 @@ squareNumber(20);
 const halfNumber = function(num2){
   const halvedNum2 = num2 / 2;
   console.log(`Half of ${num2} is ${halvedNum2}`);
+  return halvedNum2;
 }
 halfNumber(10);
 halfNumber(30);
@@ -21,6 +24,7 @@ halfNumber(30);
 const percentOf = function(numA, numB){
   const result = (numA / numB) * 100;
   console.log(`${numA} is ${result}% of ${numB}`);
+  return result;
 }
 percentOf(50, 100);
 percentOf(6, 20);
@@ -30,6 +34,7 @@ percentOf(6, 20);
 const areaOfCircle = function(radius){
   const area = radius * radius * Math.PI;
   console.log(`The area for a circle with a radius of ${radius} is ${area.toFixed(2)}`);
+  return area;
 }
 areaOfCircle(6);
 areaOfCircle(10);
@@ -49,3 +54,12 @@ const totalNumber = function(numNum){
   console.log(`Result of numNum is ${percentageNum.toFixed(2)}`);
 }
 totalNumber(10);
+
+const totalNumberFunction = function(numNum){
+  const halfNum = halfNumber(numNum); //10 / 2 = 5
+  const squaredNum = squareNumber(halfNum); //5 * 5 = 25
+  const areaNum = areaOfCircle(squaredNum); //25 * 25 * 3.14 = 1,962.5
+  const percentageNum = percentOf(areaNum, squaredNum); // (1,962.5 / 25) = 78.5, 78.5 * 100 = 7,850
+  console.log(`Result of numNum is ${percentageNum.toFixed(2)}`);
+}
+totalNumberFunction(10);

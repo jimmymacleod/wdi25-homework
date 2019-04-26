@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ html {
+   /* background: url("https://media.giphy.com/media/6Z3D5t31ZdoNW/giphy.gif") */
+   background: url("https://media.giphy.com/media/l3vRemum6MC2ZI9tC/giphy.gif")
+
+   no-repeat center left fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   /* opacity: 0.5; */
+ }
+
+body{
+  text-align: center;
+  font-size: 130%;
+  color: darkolive;
+  font-weight: 500;
+  font-family: 'Verdana';
+}
+h1{
+  color: white;
+}
+
+img{
+  opacity: 0.9;
+  width:55vw;
+  height:90vh;
+  border-radius: 5%;
+  border: 4px solid white;
+}
+ul {
+  list-style-type: none;
+}
+a{
+  color:limegreen;
+  font-weight: 900 !important;
+}
+a:hover{
+  color:red;
+}

@@ -1,0 +1,15 @@
+<h1>Place: <%= @place.name %></h1>
+
+<p>Location: <%= @place.location %></p>
+<% if @place.image.present? %>
+  <img class= "subimage" src="<%= @place.image %>" alt="">
+<% end %>
+<p>Description: <%= @place.description %></p>
+<p>Rating: <%= @place.rating %></p>
+
+
+
+<hr>
+<%= link_to 'Edit', "/places/#{ @place.id }/edit" %>
+|
+<%= link_to 'Delete', "/places/#{ @place.id }/delete" %>

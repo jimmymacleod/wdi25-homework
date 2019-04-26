@@ -1,0 +1,26 @@
+
+<marquee direction = "right" scrollamount="4">
+  <h2>Introducing...
+    <%= @doggo.name%>
+
+  </h2>
+</marquee>
+
+<a href="/home">Go Home</a><br>
+<a href="/doggos">View All</a><br><br>
+
+<a href="/doggos/<%= @doggo.id%>/edit">Edit</a>
+<a href="/doggos/<%= @doggo.id%>/delete">Delete</a>
+<br><br>
+<img src="<%= @doggo.image_url %>">
+<br><br>
+<strong>Favorite Game: </strong> <%= @doggo.game %>
+<br><br>
+<strong>Overview: </strong> <%= @doggo.description %>
+<br><br>
+<strong>Catenemy:</strong>
+<a href="/cats/<%= @doggo.cat.id %>">
+<%= @doggo.cat.name %>
+<!-- <img src="/cats/<%= @doggo.cat.image_url %>"> -->
+
+</a>

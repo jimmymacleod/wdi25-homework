@@ -1,0 +1,15 @@
+<h2><%= @details["volumeInfo"]["title"] %></h2>
+<hr />
+<img src="<%= @details["volumeInfo"]["imageLinks"]["thumbnail"] %>" />
+<p>
+  <strong>Overview:</strong>
+  <%= @details["volumeInfo"]["description"] %>
+</p>
+<p>
+  <strong>Publisher Date:</strong>
+  <%= @details["volumeInfo"]["publishedDate"] %>
+</p>
+<p>
+  <strong>Preview the Book:</strong>
+  <a href="<%= @details["volumeInfo"]["previewLink"] %>" target="_blank">Click here</a>
+</p>

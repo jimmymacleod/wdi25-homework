@@ -1,0 +1,565 @@
+Started GET "/" for 127.0.0.1 at 2018-01-15 20:01:33 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/granthanrahan/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/granthanrahan/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 185ms (Views: 9.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-01-15 20:01:43 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome" for 127.0.0.1 at 2018-01-15 20:02:01 +1100
+Processing by HomeController#welcome as HTML
+  Rendering home/welcome.html.erb within layouts/application
+  Rendered home/welcome.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 274ms (Views: 270.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 20:02:46 +1100
+Processing by HomeController#welcome as HTML
+  Rendering home/welcome.html.erb within layouts/application
+  Rendered home/welcome.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 23.8ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 20:30:49 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.6ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 20:31:40 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 17.3ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 20:31:59 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 18.9ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 20:32:49 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 16.4ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:23:04 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 23.1ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:23:29 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 18.9ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:40:52 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/magic8"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:42:09 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/magic8/blah"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:42:58 +1100
+Processing by HomeController#magic8 as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 18.3ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:43:08 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/magic8"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:51:02 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 18.9ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:51:15 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 21:54:17 +1100
+Processing by HomeController#welcome as HTML
+  Rendering home/welcome.html.erb within layouts/application
+  Rendered home/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 391ms (Views: 202.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 21:54:40 +1100
+Processing by HomeController#welcome as HTML
+  Rendering home/welcome.html.erb within layouts/application
+  Rendered home/welcome.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 14.1ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 21:54:50 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 16.8ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:54:58 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 18.1ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:59:12 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 16.8ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:59:14 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 15.0ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:59:16 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.6ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 21:59:17 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-01-15 21:59:22 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-15 21:59:27 +1100
+Processing by HomeController#welcome as HTML
+  Rendering home/welcome.html.erb within layouts/application
+  Rendered home/welcome.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 22:00:42 +1100
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-01-15 22:00:48 +1100
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.0ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 22:00:49 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 21.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-01-15 22:00:56 +1100
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 24.0ms)
+
+
+Started GET "/magic8" for 127.0.0.1 at 2018-01-15 22:01:01 +1100
+Processing by HomeController#magic8 as HTML
+  Rendering home/magic8.html.erb within layouts/application
+  Rendered home/magic8.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 29.0ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:01:06 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 16.1ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:06:45 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 46.6ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:06:50 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.3ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:06:52 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 16.3ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:06:53 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 16.1ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:06:55 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.0ms)
+
+
+Started GET "/magic8/blah" for 127.0.0.1 at 2018-01-15 22:06:56 +1100
+Processing by HomeController#magic_result as HTML
+  Parameters: {"question"=>"blah"}
+  Rendering home/magic_result.html.erb within layouts/application
+  Rendered home/magic_result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-16 08:32:15 +1100
+  
+SyntaxError (/Users/granthanrahan/wdi/homework/grant_hanrahan/week05/tuesday/games-on-rails/app/controllers/home_controller.rb:68: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/home_controller.rb:68: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-01-16 08:33:59 +1100
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 339ms (Views: 171.6ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:34:04 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 26.5ms)
+
+
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:34:10 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 26.5ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:34:52 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 34.7ms)
+
+
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:34:57 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 32.2ms)
+
+
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:35:48 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `to_i=' for nil:NilClass):
+  
+app/controllers/home_controller.rb:47:in `secret_num'
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:36:13 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 16.6ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:36:18 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 13.4ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:36:21 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 18.2ms)
+
+
+Started GET "/secret/2" for 127.0.0.1 at 2018-01-16 08:36:24 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"2"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 17.3ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:38:58 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 15.9ms)
+
+
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:39:03 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.0ms)
+
+
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:39:57 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 14.0ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:40:01 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 17.0ms)
+
+
+Started GET "/secret/5" for 127.0.0.1 at 2018-01-16 08:40:05 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"5"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.6ms)
+
+
+Started GET "/secret/5" for 127.0.0.1 at 2018-01-16 08:40:15 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"5"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 16.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-01-16 08:54:42 +1100
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 14.2ms)
+
+
+Started GET "/secret" for 127.0.0.1 at 2018-01-16 08:54:44 +1100
+Processing by HomeController#secret as HTML
+  Rendering home/secret.html.erb within layouts/application
+  Rendered home/secret.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 23.2ms)
+
+
+Started GET "/secret/3" for 127.0.0.1 at 2018-01-16 08:54:48 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"3"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 16.4ms)
+
+
+Started GET "/secret/4" for 127.0.0.1 at 2018-01-16 08:54:53 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"4"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 35ms (Views: 30.9ms)
+
+
+Started GET "/secret/5" for 127.0.0.1 at 2018-01-16 08:54:57 +1100
+Processing by HomeController#secret_num as HTML
+  Parameters: {"num"=>"5"}
+  Rendering home/secret_num.html.erb within layouts/application
+  Rendered home/secret_num.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.1ms)
+
+

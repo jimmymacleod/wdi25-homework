@@ -1,0 +1,14 @@
+<h2>Major Running Events: </h2>
+<%= link_to 'Runners Home', "/runners"%>
+<%= link_to 'Add Event', "/runs/new"%>
+
+<hr>
+<ul>
+  <% @runs.each do |run| %><br>
+  <li>
+    <em><%= link_to run.name, run %></em>
+  </li>
+
+  <% end %>
+
+</ul>

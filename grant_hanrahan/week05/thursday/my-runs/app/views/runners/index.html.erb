@@ -1,0 +1,14 @@
+<h2>Race Winners: </h2>
+<%= link_to 'Event Home', "/runs"%>
+<%= link_to 'Add Runner', "/runners/new"%>
+
+
+<ul>
+  <% @runners.each do |runner| %><br>
+  <li>
+    <em><%= link_to runner.name, runner %></em>
+  </li>
+
+  <% end %>
+
+</ul>

@@ -1,0 +1,22 @@
+* {
+  /*background-image: url("https://media.giphy.com/media/71Z7q5j6WyCuk/giphy.gif");*/
+}
+
+#container{
+  width: 750px;
+  height: 490px;
+
+}
+
+#catz{
+  /*width: 100%;
+  height:100%*/
+  /*background-image: url("https://media.giphy.com/media/w5eFyOHmkS8uc/giphy.gif");
+  position: absolute;
+  width:100%;
+  height:50%;*/
+}
+
+
+/*<img id="catz" style="position:absolute; width:100%; height:50%;" src="https://media.giphy.com/media/w5eFyOHmkS8uc/giphy.gif">
+<img id="catz" style="width:100%; height:50%;" src="https://media.giphy.com/media/xJjs8eGVbjNYY/giphy.gif">*/

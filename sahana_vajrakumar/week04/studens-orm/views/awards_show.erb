@@ -1,0 +1,23 @@
+
+  <h2>
+    <%= @award.name %>
+  </h2>
+
+
+
+<div>
+<strong>Description %:</strong> <%= @award.description %>
+<br>
+<strong>Awarded Student:</strong>
+<a href="/students/<%= @award.student.id %>">
+  <%= @award.student.first_name %>
+  <%= @award.student.last_name %>
+</a>
+<br>
+<img src="<%= @award.image_url %>">
+<br>
+<br>
+</div>
+<a href="/awards/<%= @award.id %>/edit">Edit</a>
+|
+<a href="/awards/<%= @award.id %>/delete">Delete</a>

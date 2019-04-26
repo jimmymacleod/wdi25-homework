@@ -1,0 +1,23 @@
+
+<h2>Roll Call of the Weird ones</h2>
+
+<marquee>
+<a href="/clouds/new">Add a new Round Boy</a>
+<hr>
+</marquee>
+
+<% @result.each do |cloud| %>
+
+  <strong>Name: </strong>
+    <a href="/clouds/<%= cloud["id"] %>">
+      <%= cloud["shape"] %>
+   </a>
+  <br>
+
+
+  <a href="/clouds/<%= cloud["id"] %>">
+    <img src="<%= cloud["image_url"] %>">
+  </a>
+  <hr>
+
+<% end %>

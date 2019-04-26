@@ -53,7 +53,7 @@ const guess = function(guessedLetters) {
 
         if (!incorrectGuess && currentLetter === hangmanLetters){ //**
           console.log('You won! you guessed FOX');
-          
+
         }
       }
       else {

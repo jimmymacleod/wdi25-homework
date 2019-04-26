@@ -1,0 +1,48 @@
+body {
+  font-family: serif;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+  /*padding: 0 5%;*/
+}
+h1{
+  color: gray;
+}
+h3 {
+  color: gray;
+}
+p {
+  color:gray;
+}
+article a {
+  text-decoration: none;
+  color: #00b8e6;
+}
+.top-hero img {
+  width:100%;
+}
+.sponsors {
+  width: 100%;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.column img {
+    width: 100%;
+    border: 2px solid gray;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+copyright {
+  color:gray;
+}

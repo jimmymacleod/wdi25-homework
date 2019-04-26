@@ -1,0 +1,25 @@
+<h2>Runner: <%= @runner.name %></h2>
+  <%= link_to 'Edit', edit_runner_path(@runner.id) %>|
+  <%= link_to 'Delete', runner_path(@runner), method: 'delete' %>|
+  <%= link_to 'Runners', "/runners"%>|
+  <%= link_to 'Events', "/runs"%>|
+
+  <hr>
+<h3>Details</h3>
+
+<h4>Race Won:</h4>
+<ul>
+  <% @runner.runs.each do |run| %>
+    <li>
+      <%= link_to run.name, run %>
+    </li>
+    <% end %>
+  </ul>
+
+
+<p>Age: <%= @runner.age %></p>
+<p>Nationality: <%= @runner.nationality %></p>
+<p>Gender: <%= @runner.gender%></p>
+
+<%= image_tag @runner.image %>
+<hr>

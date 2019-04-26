@@ -1,0 +1,23 @@
+<hr>
+<a href="/awards/new">Add a New Award</a>
+<hr>
+
+<h2>Student Awards</h2>
+
+
+<% @result.each do |award| %>
+
+  <strong>Name:</strong>
+  <a href="/awards/<%= award.id %>">
+    <%= award.name %>
+  </a>
+  <br>
+
+  <a href="/awards/<%= award.id %>">
+    <img src="<%= award.image_url %>">
+  </a>
+
+
+  <hr>
+
+<% end %>

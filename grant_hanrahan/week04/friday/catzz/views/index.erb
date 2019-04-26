@@ -1,0 +1,23 @@
+
+<h2>Roll Call of Amazingness</h2>
+
+
+<a href="/cats/new">Add a new cat</a>
+<hr>
+
+<a href="/home">Go Home</a><br><br>
+<% @result.each do |cat| %>
+
+  <strong>Name: </strong>
+    <a href="/cats/<%= cat["id"] %>">
+      <%= cat["first_name"] %> <%= cat["last_name"] %>
+   </a>
+  <br>
+
+
+  <a href="/cats/<%= cat["id"] %>"><br>
+    <img src="<%= cat["image_url"] %>">
+  </a>
+  <hr>
+
+<% end %>

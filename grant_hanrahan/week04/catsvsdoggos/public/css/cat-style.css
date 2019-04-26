@@ -1,0 +1,59 @@
+html {
+  /* background: url("https://media.giphy.com/media/o1MKzb5yLMN1e/giphy.gif") */
+  /* background: url("https://media.giphy.com/media/Y7l6oTRsxCC1a/giphy.gif") */
+  background: url("https://media.giphy.com/media/x0IhASKq7btOo/giphy.gif")
+  /* background: url("https://media.giphy.com/media/FyGHRHcD3RzCo/giphy.gif") */
+  no-repeat center left fixed;
+  /*background: url() no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  /* font-family: 'Shrikhand', cursive; */
+
+}
+
+body{
+  color: white;
+  font-family: 'Shrikhand', 'cursive';
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 130%;
+}
+
+img{
+  border: 3px solid white;
+  border-radius: 40%;
+  width: 35vw;
+  height: 50vh;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+h2{
+  color: navy;
+}
+h1{
+  color: purple;
+}
+
+a{
+  color: lightgreen;
+  font-size: 120%;
+  padding: 3px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+a:hover{
+  color:yellow;
+}
+
+strong{
+  color: darkred;
+}
+p{
+  color: white;
+}

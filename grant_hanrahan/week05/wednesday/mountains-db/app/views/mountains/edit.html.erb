@@ -1,0 +1,16 @@
+<h1>Edit Mountain: <%= @mountain.name %></h1>
+<%= link_to 'Home', "/mountains" %>
+<hr>
+
+<form action="/mountains/<%= @mountain.id %>" method="post">
+  Name: <input type="text" name="name" value="<%= @mountain.name %>"><br>
+  Location: <input type="text" name="location" value="<%= @mountain.location %>"><br>
+  Size: <input type="text" name="size" value="<%= @mountain.size %>"><br>
+  Image: <input type="text" name="image" value="<%= @mountain.image %>"><br>
+
+  <br>
+  <br>
+
+  <button>Save</button>
+
+</form>

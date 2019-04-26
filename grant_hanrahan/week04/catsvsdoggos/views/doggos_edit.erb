@@ -1,0 +1,27 @@
+
+
+<h2>Edit
+<%= @doggo.name %>
+</h2>
+<hr>
+
+<!-- Post to e.g. /animals/5 to submit form -->
+
+<form action="/doggos/<%= @doggo.id %>" method="post">
+
+Name: <input type="text" name="name" value="<%= @doggo.name %>"><br>
+<br>
+Description: <input type="text" name="description" value="<%= @doggo.description %>"><br>
+<br>
+Favorite Game: <input type="text" name="game" value="<%= @doggo.game %>"><br>
+<br>
+Image URL: <input type="text" name="image_url" value="<%= @doggo.image_url %>"><br>
+<br>
+Cat Fren: <input type="text" name="cat_id" value="<%= @doggo.cat_id %>"><br>
+<br>
+
+<br>
+
+<button>Update Doggo</button>
+
+</form>

@@ -1,0 +1,16 @@
+<h1>Mountain: <%= @mountain.name %> </h1>
+<%= link_to 'Edit', "/mountains/#{@mountain.id}/edit" %>
+<%= link_to 'Home', "/mountains" %>
+<%= link_to 'Delete', "/mountains/#{@mountain.id}/delete" %>
+
+<hr>
+
+<p>Location: <%=@mountain.location %></p>
+<p>Size (in meters): <%= @mountain.size %>m</p>
+
+
+<% if @mountain.image.present? %>
+  <img src="<%= @mountain.image %>" alt="">
+<% end %>
+
+<hr>

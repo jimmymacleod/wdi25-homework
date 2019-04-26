@@ -1,0 +1,24 @@
+
+
+<h2>Edit
+<%= @cloud["shape"] %>
+</h2>
+<hr>
+
+<!-- Post to e.g. /animals/5 to submit form -->
+
+<form action="/clouds/<%= @cloud["id"] %>" method="post">
+
+Shape: <input type="text" name="shape" value="<%= @cloud["shape"] %>"><br>
+<br>
+Color: <input type="text" name="color" value="<%= @cloud["color"] %>"><br>
+<br>
+Image URL: <input type="text" name="image_url" value="<%= @cloud["image_url"] %>"><br>
+<br>
+Size: <input type="text" name="size" value="<%= @cloud["size"] %>"><br>
+
+<br>
+
+<button>Update Cloud</button>
+
+</form>

@@ -1,0 +1,27 @@
+<h2>Edit <%= @beach["beach_name"] %>
+
+</h2>
+<hr>
+<form  action="/beaches/<%= @beach["id"] %>" method="post">
+  Beach Name: <input type="text" name="beach_name" value="<%= @beach["beach_name"] %>"><br>
+
+  <br>
+  Location: <input type="text" name="location" value="<%= @animal["location"] %>"><br>
+  <br>
+  Image URL: <input type="text" name="image_url" value="<%= @animal["image_url"] %>"><br>
+  <br>
+  Description: <input type="text" name="description" value="<%= @animal["description"] %>"><br>
+  <br>
+  Reviews: <input type="text" name="reviews" value="<%= @animal["reviews"] %>"><br>
+  <br>
+  Likes: <input type="text" name="likes" value="<%= @animal["likes"] %>"><br>
+  <br>
+
+  <button>Save changes</button>
+
+
+</form>
+
+
+
+</form>
